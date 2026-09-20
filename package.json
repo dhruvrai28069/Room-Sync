@@ -1,0 +1,14 @@
+{
+  "name": "room-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Room-Sync / Smart Hostel Management System",
+  "scripts": {
+    "dev": "node run-dev.js",
+    "dev:all": "node run-dev.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix backend test"
+  }
+}
